@@ -5,7 +5,7 @@ int n = 0;
 double scoops(int n, double price){
 	double s = n;
 	result = s*price;
-	return result;
+	return result+1.0;
 }
 
 System.out.println("Would you like (v)anilla, (c)hocolate or (s)trawberry?");
